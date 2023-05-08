@@ -31,7 +31,7 @@ Route::post('login', [AuthController::class, 'login']);
 Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:api');
 
 // Protected Routes
-Route::middleware('auth.jwt')->group(function () {
+Route::middleware('jwt.auth')->group(function () {
 
     // User Routes
     Route::get('users',[UserController::class, 'index']);
