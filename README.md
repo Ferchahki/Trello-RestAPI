@@ -23,16 +23,16 @@ Development of a web-based task management application for teams, you can use Tr
 
 ## Key Features
 
--   CRUD Operations
-    -   CREATE, READ, UPDATE and DELETE resources
--   Authentication / Authorization
-    -   Authentication implemented with Sanctum
-    -   Authorization implemented with Policies
--   Data validation
--   Error Handling
--   Extra security layer with:
-    -   Rate limiting
--   API documented with Swagger.io
+-   The application would allow to:
+-   
+      ●	Authenticate
+      ●	Create projects,
+      ●	Add tasks to these projects,
+      ●	Assign tasks to team members
+      ●	Track the progress of tasks with status
+      ●	Filtring, sorting and pagination
+
+-   
 
 ## How To Use
 
